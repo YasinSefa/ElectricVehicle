@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ElectricVehicle</string>
+    <string-array name="veri_dizi">
+        <item>AC</item>
+        <item>DC</item>
+    </string-array>
+</resources>

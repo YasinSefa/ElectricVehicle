@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- İkonun statik hali -->
+    <path
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10s10,-4.48 10,-10S17.52,2 12,2zM17,13H7v-2h10v2z"
+        android:fillColor="#000000"/>
+
+    <!-- İkonun dönen animasyonu -->
+    <group
+        android:rotation="0">
+        <path
+            android:pathData="M0,0h24v24H0z"
+            android:fillColor="#000000"
+            android:fillAlpha="0.0"/>
+        <path
+            android:pathData="M7,10l5,5l5,-5z"
+            android:fillColor="#000000"/>
+    </group>
+</vector>
